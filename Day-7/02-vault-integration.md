@@ -95,6 +95,10 @@ path "kv/data/*" {
   capabilities = ["create", "read", "update", "delete", "list"]
 }
 
+path "secret-kv/data/*" {
+  capabilities = ["create", "read", "update", "delete", "list"]
+}
+
 
 path "secret/data/*" {
   capabilities = ["create", "read", "update", "delete", "list"]
